@@ -1,5 +1,7 @@
 $( document ).ready(function() {
 
+    new WOW().init();
+
     $(window).resize(function() {
         $('.product-img').each(function(){
             if($(this).width()!=0)
